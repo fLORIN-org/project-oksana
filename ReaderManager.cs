@@ -6,7 +6,7 @@ namespace ConsoleApp7
 {
     public static class ReaderManager
     {
-        // ✅ Упрощенная инициализация
+        //  Упрощенная инициализация
         private static readonly List<Reader> _readers = new();
 
         public static void Load(string path)
