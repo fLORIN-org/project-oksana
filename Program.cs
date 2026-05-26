@@ -76,7 +76,7 @@ namespace ConsoleApp7
             Console.WriteLine();
         }
 
-        // ✅ Сделано public, чтобы другие файлы видели этот метод
+        // Сделано public, чтобы другие файлы видели этот метод
         public static void PrintCentered(string text)
         {
             int width = Console.WindowWidth;
