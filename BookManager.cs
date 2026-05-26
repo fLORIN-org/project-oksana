@@ -6,7 +6,7 @@ namespace ConsoleApp7
 {
     public static class BookManager
     {
-        // ✅ Упрощенная инициализация
+        // Упрощенная инициализация
         private static readonly List<Book> _books = new();
 
         public static void Load(string path)
